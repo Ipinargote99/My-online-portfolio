@@ -1,0 +1,295 @@
+
+<html>
+<head>
+
+<title> Home page</title>
+    </head>
+    
+           <style type="text/css">
+               
+
+            body{
+    font-family: sans-serif;
+     background-color: black;
+}
+               
+               #nav{
+    background-color: #000;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    border-bottom: 10px #3498db solid;
+    text-align: center;
+}
+#naigation{
+    list-style-type: none;
+    width: 1024px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+li{
+    display: inline;
+    padding: 0 0 0 20px;
+}
+#nav a{
+    font-family: "Lucida Sans Unicode", "Lucida Grande" , sans-serif;
+    text-decoration: none;
+    color: #ededed;
+}
+#nav a:hover{color: #bdbdbd;}
+
+               
+
+
+    h1{
+            font-family: 'Cormorant Garamond', serif;
+
+    text-align: center;
+    color:skyblue;
+    margin: 30px 0 50px;
+    font-size: 30
+    
+    }
+   
+
+    
+}
+
+ 
+
+.gallery{
+    
+    margin 10px 50px;
+}
+.gallery img{
+    
+    width: 230px;
+    padding: 5px;
+    filter:grayscale(100%);
+    transition:1s;
+    
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1,1);
+}
+     
+               audio{
+                   
+                   width: 450;
+                   
+                   
+                   
+               }
+        .btn{
+                
+                    font-family: 'Cormorant Garamond', serif;
+
+                text-transform: uppercase;
+                font-size: 30px;
+                width: 240px;
+                height: 60px;
+                border-radius: 80px;
+                line-height: 60px;
+                text-align: center;
+                border: 3px solid #87ceeb;
+                display: block;
+                text-decoration: none;
+                margin: 100px auto;
+                color: #87ceeb;
+                position: relative;
+                overflow: hidden;
+                background: transparent;
+                transition: .3s;
+                
+                
+                
+            }
+            .btn:before
+            {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: #87ceeb;
+                top: -100%;
+                left: 0;
+                z-index: -1;
+                transition: .3s;
+                
+                
+                
+                
+            }
+                  
+            
+            .btn:after{
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                background: #87ceeb
+                top: -100%;
+                left: 0;
+                z-index: -1;
+                transition: .3s;
+                
+                
+                
+                
+            }
+            
+            .btn:hover
+            {
+                
+                color: #fff;
+                
+                
+            }
+            
+            
+            .btn:hover:before
+            {
+                top:0;
+                
+                
+            }
+            
+            .btn:hover:after
+            {
+                
+                top: 0;
+                
+            }
+               #box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/back1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/back2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/back3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+ h2{
+     
+  
+    font-family: 'Cormorant Garamond', serif;
+
+         
+          font-size: 50px;
+          color: white;
+          margin: 0 auto;
+          display: table-cell;
+          vertical-align: middle;
+        }
+               
+    </style>
+
+    
+       
+        <link rel="stylesheet"type="text/css"href="css/lightbox.min.css">
+        <script type="text/javascript"src="js/lightbox-plus-jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+<body>
+  
+   
+ <div id="box1">
+        <center><h2>Portrait Gallery Design</h2></center>
+        </div>
+        <div id="box2">
+                    <center><h2>Portrait Gallery Design</h2></center>
+
+        </div>
+        <div id="box3">
+                    <center><h2>Portrait Gallery Design</h2></center>
+
+        </div>
+   
+    <div id="nav">
+<ul id="navigation">
+
+    <li><a href=index.html>HOME</a></li>
+    <li><a href=first%20page.html>GALLERY</a></li>
+    <li><a href=seocndpage.html>VIDEOS</a></li>
+ 
+        
+</ul>    
+</div> 
+       
+ <div class="gallery">     
+ <a href="images/pic 1.jpg" data-lightbox="mygallery"><img src="images/pic1-small.jpg"></a>
+ <a href="images/pic 2.jpg"data-lightbox="mygallery"><img src="images/pic2-small.jpg"></a>
+ <a href="images/pic 3.jpg"data-lightbox="mygallery"><img src="images/pic3-small.jpg"></a>
+ <a href="images/pic 4.jpg"data-lightbox="mygallery"><img src="images/pic4-small.jpg"></a>
+ <a href="images/pic 5.jpg"data-lightbox="mygallery"><img src="images/pic5-small.jpg"></a>
+ <a href="images/pic 6.jpg"data-lightbox="mygallery"><img src="images/pic6-small.jpg"></a>
+ <a href="images/pic 7.jpg"data-lightbox="mygallery"><img src="images/pic7-small.jpg"></a>
+ <a href="images/pic 8.jpg"data-lightbox="mygallery"><img src="images/pic8-small.jpg"></a>
+ <a href="images/pic 9.jpg"data-lightbox="mygallery"><img src="images/pic9-small.jpg"></a>
+ <a href="images/pic 10.jpg"data-lightbox="mygallery"><img src="images/pic10-small.jpg"></a>
+ <a href="images/pic 11.jpg"data-lightbox="mygallery"><img src="images/pic11-small.jpg"></a>
+    <a href="images/pic 12.jpg"data-lightbox="mygallery"><img src="images/pic12-small.jpg"></a>
+     <a href="images/pic 14.jpg"data-lightbox="mygallery"><img src="images/pic14-small.jpg"></a>
+     <a href="images/pic 15.jpg"data-lightbox="mygallery"><img src="images/pic15-small.jpg"></a>
+     <a href="images/pic 16.jpg"data-lightbox="mygallery"><img src="images/pic16-small.jpg"></a>
+     <a href="images/pic 17.jpg"data-lightbox="mygallery"><img src="images/pic17-small.jpg"></a>
+     <a href="images/pic 18.jpg"data-lightbox="mygallery"><img src="images/pic18-small.jpg"></a>
+  
+
+
+         
+     <h1>Superhero Self-Portrait Project</h1>   
+ 
+     <a href="images/superheroe.jpg" data-lightbox="mygallery"><img src="images/superheroe-small.jpg"></a>
+ 
+        </div>
+  <h1>Audio Project</h1>
+    
+    
+   <audio controls  loop>
+    
+     <source src="audio/audio.wav" type="audio/wav">
+    
+    
+    </audio>
+        
+               <a href="seocndpage.html" class="btn">Next!</a>
+
+        
+        
+
+    </body>
+    
+
+    
+              
+              
+             
+    
+        
+
+
+ 
+</html>
+    
+    
+    
+    
+   
+   
